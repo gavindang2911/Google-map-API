@@ -1,11 +1,12 @@
 This project is called "Store Locator" by using Google Map API and Starbuck Location AIP. It allows users to 
-enter the zip code to find the nearest Starbuck around that area. 
+enter the zip code or city to find the nearest Starbuck around the area. 
 
 
-## Design Link
+### Google Map API
 
-https://www.figma.com/file/HuauCfrLa39DV0lK76LLZb/Google-Maps?node-id=0%3A2
+### Starbucks location API by
 
+https://github.com/mmcloughlin/starbucks
 
 ## FontAwesome Link
 
