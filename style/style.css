@@ -125,6 +125,25 @@ html, body {
 	cursor: pointer;
 }
 
+.store-info-window{
+	height: 90px;
+	width: 200px;
+	font-size: 15px;
+	/* font-weight: bold; */
+	color: teal;
+}
+.store-info-city{
+	font-size: 16px;
+	border-bottom: 0.1px solid #B5ADAD;
+	padding-bottom: 5px;
+}
+.store-info-phone{
+	padding-top: 6px;
+}
+.fa-phone-alt{
+	color: slategray;
+	padding-bottom: 8px;
+}
 .store-container-background{
 	display: flex;
 	flex-grow: 1;
