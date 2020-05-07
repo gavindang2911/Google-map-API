@@ -16,12 +16,12 @@ html, body {
 
 .title{
 	position: absolute;
-	font-size: 88px;
+	font-size: 48px;
 	z-index: 100;
 	font-weight: bold;
 	color: #333;
 	text-transform: uppercase;
-	top: 100px;
+	top: 130px;
 	left: 100px;
 
 }
@@ -66,9 +66,21 @@ html, body {
 	bottom: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
+	display: flex;
+	overflow-y: auto;
+    padding-bottom: 30px
 }
+
+.stores-list {
+    flex-grow: 1;
+    padding-left: 10px;
+	padding-right: 10px;
+}
+
 .store-container{
 	border-bottom: 1px solid #979797;
+	display: flex;
+	cursor: pointer;
 }
 .store-address{
 	margin-top: 30px;
@@ -105,4 +117,24 @@ html, body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.search i {
+    font-size: 25px;
+	color: white;
+	cursor: pointer;
+}
+
+.store-container-background{
+	display: flex;
+	flex-grow: 1;
+	border-radius: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    transition: all 0.2s ease-in-out;
+}
+.store-container-background:hover {
+    background-color: #ccc;
 }
